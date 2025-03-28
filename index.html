@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>單字搜尋工具</title>
+  <title>日文單字搜尋工具</title>
+  <link rel="manifest" href="manifest.json">
   <style>
     body {
       font-family: sans-serif;
-      background-color: #f7f7f7;
+      background-color: #f2f2f2;
       padding: 2rem;
       display: flex;
       justify-content: center;
@@ -17,10 +18,11 @@
       padding: 2rem;
       border-radius: 12px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      max-width: 500px;
+      max-width: 600px;
       width: 100%;
+      display: none;
     }
-    input {
+    input, select {
       width: 100%;
       padding: 0.5rem;
       font-size: 1rem;
@@ -43,30 +45,73 @@
       margin-top: 1rem;
       font-size: 1.1rem;
       color: #333;
+      white-space: pre-wrap;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div id="login">
+    <input type="password" id="passwordInput" placeholder="請輸入密碼">
+    <button onclick="checkPassword()">登入</button>
+  </div>
+
+  <div class="container" id="app">
     <h1>日文單字搜尋</h1>
-    <input id="searchInput" type="text" placeholder="輸入日文單字...">
+    <input id="searchInput" type="text" placeholder="輸入日文單字或意思...">
+    <select id="categorySelect">
+      <option value="">所有類別</option>
+      <option value="動詞">動詞</option>
+      <option value="名詞">名詞</option>
+      <option value="形容詞">形容詞</option>
+    </select>
     <button id="searchBtn">搜尋</button>
     <div id="result"></div>
   </div>
+
   <script>
-    const wordData = {
-      "迷う": "迷路、困惑（例：道に迷う）",
-      "目指す": "以...為目標、以...為目的",
-      "命": "生命、命運",
-      "作家": "作家，寫作的人",
-      "初詣で": "新年初次參拜神社或寺廟"
-    };
+    const correctPassword = "secret123";
+
+    function checkPassword() {
+      const input = document.getElementById('passwordInput').value;
+      if (input === correctPassword) {
+        document.getElementById('login').style.display = 'none';
+        document.getElementById('app').style.display = 'block';
+      } else {
+        alert("密碼錯誤");
+      }
+    }
+
+    let wordData = [];
+
+    fetch('words.json')
+      .then(res => res.json())
+      .then(data => {
+        wordData = data;
+      });
 
     document.getElementById('searchBtn').addEventListener('click', () => {
       const input = document.getElementById('searchInput').value.trim();
-      const result = wordData[input];
-      document.getElementById('result').innerText = result ? `「${input}」的意思是：\n${result}` : '找不到這個單字';
+      const category = document.getElementById('categorySelect').value;
+      let resultText = '';
+      for (const item of wordData) {
+        if ((item.word.includes(input) || item.meaning.includes(input)) && 
+            (!category || item.category === category)) {
+          resultText += `【${item.category}】「${item.word}」\n意思：${item.meaning}\n例句：${item.example}\n`;
+          if (item.audio) {
+            resultText += `<audio controls src="${item.audio}"></audio>\n`;
+          }
+          resultText += `\n`;
+        }
+      }
+      document.getElementById('result').innerHTML = resultText || '找不到符合的單字';
     });
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js');
+      });
+    }
   </script>
 </body>
 </html>
+
