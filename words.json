@@ -2771,5 +2771,40 @@
     "meaning": "煙火大會",
     "category": "文化體驗",
     "example": "花火大会はすごくきれいでした。"
+  },
+    {
+    "word": "神社",
+    "romaji": "jinja",
+    "meaning": "神社",
+    "category": "文化",
+    "example": "神社で参拝しました。"
+  },
+  {
+    "word": "参拝",
+    "romaji": "sanpai",
+    "meaning": "參拜",
+    "category": "文化",
+    "example": "手を洗ってから参拝します。"
+  },
+  {
+    "word": "手水舎",
+    "romaji": "temizuya",
+    "meaning": "淨手亭",
+    "category": "文化",
+    "example": "参拝の前に手水舎で手を清めます。"
+  },
+  {
+    "word": "鳥居",
+    "romaji": "torii",
+    "meaning": "鳥居（神社入口的門）",
+    "category": "文化",
+    "example": "鳥居をくぐるときは一礼します。"
+  },
+  {
+    "word": "絵馬",
+    "romaji": "ema",
+    "meaning": "繪馬（祈願木板）",
+    "category": "文化",
+    "example": "願い事を書いて絵馬を掛けました。"
   }
 ]
