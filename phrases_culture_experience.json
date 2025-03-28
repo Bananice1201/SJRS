@@ -1,0 +1,287 @@
+[
+  {
+    "word": "神社",
+    "romaji": "jinja",
+    "meaning": "神社",
+    "category": "文化體驗",
+    "example": "神社で参拝しました。"
+  },
+  {
+    "word": "参拝",
+    "romaji": "sanpai",
+    "meaning": "參拜",
+    "category": "文化體驗",
+    "example": "手を洗ってから参拝します。"
+  },
+  {
+    "word": "手水舎",
+    "romaji": "temizuya",
+    "meaning": "淨手亭",
+    "category": "文化體驗",
+    "example": "参拝の前に手水舎で手を清めます。"
+  },
+  {
+    "word": "鳥居",
+    "romaji": "torii",
+    "meaning": "鳥居（神社入口的門）",
+    "category": "文化體驗",
+    "example": "鳥居をくぐるときは一礼します。"
+  },
+  {
+    "word": "絵馬",
+    "romaji": "ema",
+    "meaning": "繪馬（祈願木板）",
+    "category": "文化體驗",
+    "example": "願い事を書いて絵馬を掛けました。"
+  },
+  {
+    "word": "お守り",
+    "romaji": "omamori",
+    "meaning": "護身符",
+    "category": "文化體驗",
+    "example": "交通安全のお守りを買いました。"
+  },
+  {
+    "word": "おみくじ",
+    "romaji": "omikuji",
+    "meaning": "籤詩",
+    "category": "文化體驗",
+    "example": "おみくじを引いて大吉でした。"
+  },
+  {
+    "word": "浴衣",
+    "romaji": "yukata",
+    "meaning": "浴衣（夏季和服）",
+    "category": "文化體驗",
+    "example": "お祭りで浴衣を着ました。"
+  },
+  {
+    "word": "着物",
+    "romaji": "kimono",
+    "meaning": "和服",
+    "category": "文化體驗",
+    "example": "京都で着物体験をしました。"
+  },
+  {
+    "word": "畳",
+    "romaji": "tatami",
+    "meaning": "榻榻米",
+    "category": "文化體驗",
+    "example": "畳の上では靴を脱ぎます。"
+  },
+  {
+    "word": "正座",
+    "romaji": "seiza",
+    "meaning": "正坐",
+    "category": "文化體驗",
+    "example": "和室では正座をするのが礼儀です。"
+  },
+  {
+    "word": "茶道",
+    "romaji": "sadou",
+    "meaning": "茶道",
+    "category": "文化體驗",
+    "example": "初めて茶道を体験しました。"
+  },
+  {
+    "word": "和菓子",
+    "romaji": "wagashi",
+    "meaning": "日式點心",
+    "category": "文化體驗",
+    "example": "抹茶と一緒に和菓子をいただきました。"
+  },
+  {
+    "word": "祭り",
+    "romaji": "matsuri",
+    "meaning": "祭典",
+    "category": "文化體驗",
+    "example": "夏祭りで花火を見ました。"
+  },
+  {
+    "word": "花火大会",
+    "romaji": "hanabi taikai",
+    "meaning": "煙火大會",
+    "category": "文化體驗",
+    "example": "花火大会はすごくきれいでした。"
+  },
+  {
+    "japanese": "この用紙に記入してください。",
+    "romaji": "kono youshi ni kinyuu shite kudasai.",
+    "chinese": "請在這張表格上填寫。",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "ローマ字で名前を書いてください。",
+    "romaji": "roomaji de namae o kaite kudasai.",
+    "chinese": "請用羅馬拼音寫姓名。",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "生年月日を記入してください。",
+    "romaji": "seinengappi o kinyuu shite kudasai.",
+    "chinese": "請填寫出生年月日。",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "パスポート番号を記入してください。",
+    "romaji": "pasupooto bangou o kinyuu shite kudasai.",
+    "chinese": "請填入護照號碼。",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "署名をお願いします。",
+    "romaji": "shomei o onegaishimasu.",
+    "chinese": "請簽名。",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "ここにチェックを入れてください。",
+    "romaji": "koko ni chekku o irete kudasai.",
+    "chinese": "請在這裡打勾。",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "本人確認書類を提示してください。",
+    "romaji": "honnin kakunin shorui o teiji shite kudasai.",
+    "chinese": "請出示身份證明文件。",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "立入禁止",
+    "romaji": "tachiiri kinshi",
+    "chinese": "禁止進入",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "撮影禁止",
+    "romaji": "satsuei kinshi",
+    "chinese": "禁止攝影",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "飲食禁止",
+    "romaji": "inshoku kinshi",
+    "chinese": "禁止飲食",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "関係者以外立入禁止",
+    "romaji": "kankeisha igai tachiiri kinshi",
+    "chinese": "非相關人員禁止進入",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "足元にご注意ください",
+    "romaji": "ashimoto ni gochuui kudasai",
+    "chinese": "請注意腳下",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "頭上注意",
+    "romaji": "zujou chuui",
+    "chinese": "小心頭部",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "順路",
+    "romaji": "junro",
+    "chinese": "參觀路線",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "危険",
+    "romaji": "kiken",
+    "chinese": "危險",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "非常口",
+    "romaji": "hijou guchi",
+    "chinese": "緊急出口",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "この先通行止め",
+    "romaji": "kono saki tsuukou dome",
+    "chinese": "前方禁止通行",
+    "category": "文化體驗"
+  },
+  {
+    "japanese": "◯番出口はどこですか？",
+    "romaji": "maru-ban deguchi wa doko desu ka?",
+    "chinese": "幾號出口在哪裡？",
+    "category": "交通"
+  },
+  {
+    "japanese": "この電車は新宿に行きますか？",
+    "romaji": "kono densha wa shinjuku ni ikimasu ka?",
+    "chinese": "這班電車有到新宿嗎？",
+    "category": "交通"
+  },
+  {
+    "japanese": "何番線ですか？",
+    "romaji": "nanbansen desu ka?",
+    "chinese": "是第幾月台？",
+    "category": "交通"
+  },
+  {
+    "japanese": "快速と各駅、どちらが早いですか？",
+    "romaji": "kaisoku to kakueki, dochira ga hayai desu ka?",
+    "chinese": "快速和普通車哪個比較快？",
+    "category": "交通"
+  },
+  {
+    "japanese": "この駅で乗り換えますか？",
+    "romaji": "kono eki de norikaemasu ka?",
+    "chinese": "要在這站轉車嗎？",
+    "category": "交通"
+  },
+  {
+    "japanese": "一番早く着く方法は何ですか？",
+    "romaji": "ichiban hayaku tsuku houhou wa nan desu ka?",
+    "chinese": "最快抵達的方法是什麼？",
+    "category": "交通"
+  },
+  {
+    "japanese": "この電車は乗り換えが必要ですか？",
+    "romaji": "kono densha wa norikae ga hitsuyou desu ka?",
+    "chinese": "這班車需要轉乘嗎？",
+    "category": "交通"
+  },
+  {
+    "japanese": "どこで降りればいいですか？",
+    "romaji": "doko de orireba ii desu ka?",
+    "chinese": "我要在哪裡下車？",
+    "category": "交通"
+  },
+  {
+    "japanese": "次の駅は何ですか？",
+    "romaji": "tsugi no eki wa nan desu ka?",
+    "chinese": "下一站是什麼？",
+    "category": "交通"
+  },
+  {
+    "japanese": "このバスは◯◯を通りますか？",
+    "romaji": "kono basu wa ___ o toorimasu ka?",
+    "chinese": "這台巴士會經過◯◯嗎？",
+    "category": "交通"
+  },
+  {
+    "japanese": "駅までの行き方を教えてください。",
+    "romaji": "eki made no ikikata o oshiete kudasai.",
+    "chinese": "請告訴我去車站的路怎麼走。",
+    "category": "交通"
+  },
+  {
+    "japanese": "Googleマップを見てもいいですか？",
+    "romaji": "google mappu o mite mo ii desu ka?",
+    "chinese": "可以看 Google 地圖嗎？",
+    "category": "交通"
+  },
+  {
+    "japanese": "どのルートが一番便利ですか？",
+    "romaji": "dono ruuto ga ichiban benri desu ka?",
+    "chinese": "哪一條路線最方便？",
+    "category": "交通"
+  }
+]

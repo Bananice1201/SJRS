@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文化體驗句型查詢</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, select {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .phrase {
+      padding: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+    .japanese {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .romaji {
+      color: #555;
+      margin: 0.2rem 0;
+    }
+    .chinese {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎎 文化體驗句型查詢</h1>
+    <select id="categorySelect">
+      <option value="">所有分類</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="輸入日文、中文或羅馬拼音...">
+    <div id="results"><p>請輸入關鍵字或選擇分類查詢句型</p></div>
+  </div>
+
+  <script>
+    let phrases = [];
+
+    const searchInput = document.getElementById('searchInput');
+    const categorySelect = document.getElementById('categorySelect');
+    const resultsDiv = document.getElementById('results');
+
+    function renderResults() {
+      const keyword = searchInput.value.trim().toLowerCase();
+      const selectedCat = categorySelect.value;
+      const filtered = phrases.filter(p => {
+        return (!selectedCat || p.category === selectedCat) &&
+          (p.japanese.toLowerCase().includes(keyword) ||
+           p.romaji.toLowerCase().includes(keyword) ||
+           p.chinese.toLowerCase().includes(keyword));
+      });
+
+      resultsDiv.innerHTML = filtered.length
+        ? filtered.map(p => `
+          <div class="phrase">
+            <div class="japanese">「${p.japanese}」</div>
+            <div class="romaji">(${p.romaji})</div>
+            <div class="chinese">👉 ${p.chinese}</div>
+          </div>
+        `).join('')
+        : '<p>找不到符合的句型</p>';
+    }
+
+    searchInput.addEventListener('input', renderResults);
+    categorySelect.addEventListener('change', renderResults);
+
+    fetch('phrases_culture_experience.json')
+      .then(res => res.json())
+      .then(data => {
+        phrases = data;
+
+        // 自動分類下拉選單
+        const categories = [...new Set(phrases.map(p => p.category).filter(Boolean))].sort();
+        for (const cat of categories) {
+          const opt = document.createElement('option');
+          opt.value = cat;
+          opt.textContent = cat;
+          categorySelect.appendChild(opt);
+        }
+
+        renderResults(); // 初始渲染提示
+      })
+      .catch(err => {
+        resultsDiv.innerHTML = '<p style="color:red">無法載入資料，請稍後再試。</p>';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>

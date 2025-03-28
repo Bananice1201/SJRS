@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -54,23 +55,14 @@
     <nav>
       <a href="index.html">🔍 單字查詢</a>
       <a href="phrases.html">💬 句型查詢</a>
+      <a href="phrases_culture.html">🎎 文化體驗</a>
     </nav>
     <h1>實用日語情境句型查詢</h1>
     <select id="categorySelect">
       <option value="">所有情境</option>
-      <option value="問路">問路</option>
-      <option value="購物">購物</option>
-      <option value="飯店">飯店</option>
-      <option value="緊急">緊急</option>
-      <option value="餐廳">餐廳</option>
-      <option value="交通">交通</option>
-      <option value="機場">機場</option>
-      <option value="公共設施">公共設施</option>
-      <option value="通訊">通訊</option>
-      <option value="景點票券">景點票券</option>
     </select>
-    <input type="text" id="searchInput" placeholder="例如：警察、Wi-Fi、すみません">
-    <div id="results">讀取中...</div>
+    <input type="text" id="searchInput" placeholder="例如：警察、Wi-Fi、sumimasen...">
+    <div id="results"><p>請輸入關鍵字或選擇情境分類</p></div>
   </div>
 
   <script>
@@ -85,7 +77,9 @@
       const category = select.value;
       const filtered = phrases.filter(p => {
         return (!category || p.category === category) &&
-          (p.japanese.includes(keyword) || p.meaning.includes(keyword));
+          (p.japanese.toLowerCase().includes(keyword) ||
+           p.meaning.toLowerCase().includes(keyword) ||
+           p.romaji.toLowerCase().includes(keyword));
       });
       resultsDiv.innerHTML = filtered.map(p => `
         <div class="phrase">
@@ -103,7 +97,17 @@
       .then(res => res.json())
       .then(data => {
         phrases = data;
-        renderResults();
+
+        // 自動產生分類選單
+        const categories = [...new Set(phrases.map(p => p.category).filter(Boolean))].sort();
+        for (const cat of categories) {
+          const opt = document.createElement('option');
+          opt.value = cat;
+          opt.textContent = cat;
+          select.appendChild(opt);
+        }
+
+        renderResults(); // 初始渲染
       })
       .catch(err => {
         resultsDiv.innerHTML = '<p style="color:red">無法載入句型資料，請稍後再試。</p>';
@@ -112,3 +116,4 @@
   </script>
 </body>
 </html>
+

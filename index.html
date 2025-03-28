@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -64,14 +65,12 @@
     <nav style="margin-bottom: 1.5rem;">
       <a href="index.html">🔍 單字查詢</a>
       <a href="phrases.html">💬 句型查詢</a>
+      <a href="phrases_culture.html">🎎 文化體驗</a>
     </nav>
     <h1>日文單字搜尋</h1>
     <input id="searchInput" type="text" placeholder="輸入日文單字或意思...">
     <select id="categorySelect">
       <option value="">所有類別</option>
-      <option value="動詞">動詞</option>
-      <option value="名詞">名詞</option>
-      <option value="形容詞">形容詞</option>
     </select>
     <button id="searchBtn">搜尋</button>
     <div id="result"></div>
@@ -80,7 +79,6 @@
   <script>
     const correctPassword = "0330";
 
-    // 自動登入判斷
     if (localStorage.getItem('loggedIn') === 'true') {
       document.getElementById('login').style.display = 'none';
       document.getElementById('app').style.display = 'block';
@@ -103,14 +101,24 @@
       .then(res => res.json())
       .then(data => {
         wordData = data;
+
+        // 自動產生分類選單
+        const select = document.getElementById('categorySelect');
+        const categories = [...new Set(wordData.map(w => w.category).filter(Boolean))].sort();
+        for (const cat of categories) {
+          const opt = document.createElement('option');
+          opt.value = cat;
+          opt.textContent = cat;
+          select.appendChild(opt);
+        }
       });
 
     document.getElementById('searchBtn').addEventListener('click', () => {
-      const input = document.getElementById('searchInput').value.trim();
+      const input = document.getElementById('searchInput').value.trim().toLowerCase();
       const category = document.getElementById('categorySelect').value;
       let resultText = '';
       for (const item of wordData) {
-        if ((item.word.includes(input) || item.meaning.includes(input)) &&
+        if ((item.word.toLowerCase().includes(input) || item.meaning.toLowerCase().includes(input)) &&
             (!category || item.category === category)) {
           resultText += `【${item.category}】「${item.word}」 (${item.romaji})\n意思：${item.meaning}\n例句：${item.example}\n\n`;
         }

@@ -1,4 +1,3 @@
-[
   {
     "category": "問路",
     "japanese": "すみません、駅はどこですか？",
@@ -184,5 +183,149 @@
     "japanese": "パンフレットはありますか？",
     "romaji": "panfuretto wa arimasu ka?",
     "meaning": "有簡介手冊嗎？"
+  },
+  {
+    "japanese": "頭が痛いです。",
+    "romaji": "atama ga itai desu.",
+    "chinese": "我頭痛。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "熱があります。",
+    "romaji": "netsu ga arimasu.",
+    "chinese": "我發燒了。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "お腹が痛いです。",
+    "romaji": "onaka ga itai desu.",
+    "chinese": "我肚子痛。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "気分が悪いです。",
+    "romaji": "kibun ga warui desu.",
+    "chinese": "我感覺不舒服。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "病院に行きたいです。",
+    "romaji": "byouin ni ikitai desu.",
+    "chinese": "我想去醫院。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "薬を飲んでもいいですか？",
+    "romaji": "kusuri o nonde mo ii desu ka?",
+    "chinese": "我可以吃藥嗎？",
+    "category": "醫療"
+  },
+  {
+    "japanese": "アレルギーがあります。",
+    "romaji": "arerugii ga arimasu.",
+    "chinese": "我有過敏。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "処方箋が必要ですか？",
+    "romaji": "shohousen ga hitsuyou desu ka?",
+    "chinese": "需要處方籤嗎？",
+    "category": "醫療"
+  },
+  {
+    "japanese": "診察をお願いします。",
+    "romaji": "shinsatsu o onegaishimasu.",
+    "chinese": "請幫我看診。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "保険証を持っています。",
+    "romaji": "hokenshou o motteimasu.",
+    "chinese": "我有保險證。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "どの薬を飲めばいいですか？",
+    "romaji": "dono kusuri o nomeba ii desu ka?",
+    "chinese": "我應該吃哪種藥？",
+    "category": "醫療"
+  },
+  {
+    "japanese": "薬を飲んだほうがいいですか？",
+    "romaji": "kusuri o nonda hou ga ii desu ka?",
+    "chinese": "我應該吃藥嗎？",
+    "category": "醫療"
+  },
+  {
+    "japanese": "痛み止めはありますか？",
+    "romaji": "itami dome wa arimasu ka?",
+    "chinese": "有止痛藥嗎？",
+    "category": "醫療"
+  },
+  {
+    "japanese": "この薬は1日3回飲んでください。",
+    "romaji": "kono kusuri wa ichinichi sankai nonde kudasai.",
+    "chinese": "這個藥請一天吃三次。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "食後に服用してください。",
+    "romaji": "shokugo ni fukuyou shite kudasai.",
+    "chinese": "請在飯後服用。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "水と一緒に飲んでください。",
+    "romaji": "mizu to issho ni nonde kudasai.",
+    "chinese": "請配水服用。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "この薬は眠くなることがあります。",
+    "romaji": "kono kusuri wa nemuku naru koto ga arimasu.",
+    "chinese": "這個藥可能會讓人想睡。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "副作用が出たら、すぐに医者に相談してください。",
+    "romaji": "fukusayou ga detara, sugu ni isha ni soudan shite kudasai.",
+    "chinese": "若出現副作用請立刻詢問醫生。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "どうされましたか？",
+    "romaji": "dou saremashita ka?",
+    "chinese": "您哪裡不舒服？",
+    "category": "醫療"
+  },
+  {
+    "japanese": "熱はありますか？",
+    "romaji": "netsu wa arimasu ka?",
+    "chinese": "有發燒嗎？",
+    "category": "醫療"
+  },
+  {
+    "japanese": "いつから症状がありますか？",
+    "romaji": "itsu kara shoujou ga arimasu ka?",
+    "chinese": "症狀從什麼時候開始？",
+    "category": "醫療"
+  },
+  {
+    "japanese": "痛みの場所を教えてください。",
+    "romaji": "itami no basho o oshiete kudasai.",
+    "chinese": "請告訴我哪裡痛。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "保険証を見せてください。",
+    "romaji": "hokenshou o misete kudasai.",
+    "chinese": "請出示保險證。",
+    "category": "醫療"
+  },
+  {
+    "japanese": "お大事にしてください。",
+    "romaji": "odaiji ni shite kudasai.",
+    "chinese": "請保重身體。",
+    "category": "醫療"
   }
 ]
