@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>單字搜尋工具</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f7f7f7;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    button {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #result {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>日文單字搜尋</h1>
+    <input id="searchInput" type="text" placeholder="輸入日文單字...">
+    <button id="searchBtn">搜尋</button>
+    <div id="result"></div>
+  </div>
+  <script>
+    const wordData = {
+      "迷う": "迷路、困惑（例：道に迷う）",
+      "目指す": "以...為目標、以...為目的",
+      "命": "生命、命運",
+      "作家": "作家，寫作的人",
+      "初詣で": "新年初次參拜神社或寺廟"
+    };
+
+    document.getElementById('searchBtn').addEventListener('click', () => {
+      const input = document.getElementById('searchInput').value.trim();
+      const result = wordData[input];
+      document.getElementById('result').innerText = result ? `「${input}」的意思是：\n${result}` : '找不到這個單字';
+    });
+  </script>
+</body>
+</html>
