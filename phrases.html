@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>實用日語情境句型查詢</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background-color: #f2f2f2;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    nav {
+      margin-bottom: 1.5rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #007bff;
+    }
+    select, input {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .phrase {
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 0;
+    }
+    .japanese {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .romaji {
+      color: #555;
+      margin: 0.3rem 0;
+    }
+    .meaning {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <a href="index.html">🔍 單字查詢</a>
+      <a href="phrases.html">💬 句型查詢</a>
+    </nav>
+    <h1>實用日語情境句型查詢</h1>
+    <select id="categorySelect">
+      <option value="">所有情境</option>
+      <option value="問路">問路</option>
+      <option value="購物">購物</option>
+      <option value="飯店">飯店</option>
+      <option value="緊急">緊急</option>
+      <option value="餐廳">餐廳</option>
+      <option value="交通">交通</option>
+      <option value="機場">機場</option>
+      <option value="公共設施">公共設施</option>
+      <option value="通訊">通訊</option>
+      <option value="景點票券">景點票券</option>
+    </select>
+    <input type="text" id="searchInput" placeholder="例如：警察、Wi-Fi、すみません">
+    <div id="results">讀取中...</div>
+  </div>
+
+  <script>
+    let phrases = [];
+
+    const resultsDiv = document.getElementById('results');
+    const input = document.getElementById('searchInput');
+    const select = document.getElementById('categorySelect');
+
+    function renderResults() {
+      const keyword = input.value.trim().toLowerCase();
+      const category = select.value;
+      const filtered = phrases.filter(p => {
+        return (!category || p.category === category) &&
+          (p.japanese.includes(keyword) || p.meaning.includes(keyword));
+      });
+      resultsDiv.innerHTML = filtered.map(p => `
+        <div class="phrase">
+          <div class="japanese">${p.japanese}</div>
+          <div class="romaji">${p.romaji}</div>
+          <div class="meaning">${p.meaning}</div>
+        </div>
+      `).join('') || '<p>找不到相關句型</p>';
+    }
+
+    input.addEventListener('input', renderResults);
+    select.addEventListener('change', renderResults);
+
+    fetch('phrases_full.json')
+      .then(res => res.json())
+      .then(data => {
+        phrases = data;
+        renderResults();
+      })
+      .catch(err => {
+        resultsDiv.innerHTML = '<p style="color:red">無法載入句型資料，請稍後再試。</p>';
+        console.error('JSON 載入錯誤:', err);
+      });
+  </script>
+</body>
+</html>

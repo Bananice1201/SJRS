@@ -168,25 +168,1018 @@
     "romaji": "chizu"
   },
   {
-    "word": "迷う",
-    "meaning": "迷路、困惑（例：道に迷う）",
-    "example": "道に迷ってしまいました。",
-    "category": "動詞",
-    "audio": ""
-  },
-  {
-    "word": "目指す",
-    "meaning": "以...為目標",
-    "example": "医者を目指して勉強しています。",
-    "category": "動詞",
-    "audio": ""
-  },
-  {
-    "word": "命",
-    "meaning": "生命、命運",
-    "example": "命は大切にしなければならない。",
+    "word": "レジ",
+    "meaning": "收銀台",
+    "example": "レジはこちらです。",
     "category": "名詞",
-    "audio": ""
+    "romaji": "reji"
+  },
+  {
+    "word": "袋",
+    "meaning": "袋子",
+    "example": "袋は必要ですか？",
+    "category": "名詞",
+    "romaji": "fukuro"
+  },
+  {
+    "word": "温めますか",
+    "meaning": "需要加熱嗎？",
+    "example": "お弁当、温めますか？",
+    "category": "表現",
+    "romaji": "atatamemasu ka"
+  },
+  {
+    "word": "お弁当",
+    "meaning": "便當",
+    "example": "お弁当を買いました。",
+    "category": "名詞",
+    "romaji": "obentou"
+  },
+  {
+    "word": "おにぎり",
+    "meaning": "飯糰",
+    "example": "おにぎりを三つください。",
+    "category": "名詞",
+    "romaji": "onigiri"
+  },
+  {
+    "word": "アイス",
+    "meaning": "冰淇淋",
+    "example": "アイスが食べたいです。",
+    "category": "名詞",
+    "romaji": "aisu"
+  },
+  {
+    "word": "チェックイン",
+    "meaning": "入住",
+    "example": "チェックインをお願いします。",
+    "category": "動詞",
+    "romaji": "chekku in"
+  },
+  {
+    "word": "チェックアウト",
+    "meaning": "退房",
+    "example": "チェックアウトは何時ですか？",
+    "category": "動詞",
+    "romaji": "chekku auto"
+  },
+  {
+    "word": "予約",
+    "meaning": "預約",
+    "example": "予約しています、ヤマダです。",
+    "category": "名詞",
+    "romaji": "yoyaku"
+  },
+  {
+    "word": "部屋",
+    "meaning": "房間",
+    "example": "部屋は何階ですか？",
+    "category": "名詞",
+    "romaji": "heya"
+  },
+  {
+    "word": "鍵",
+    "meaning": "鑰匙",
+    "example": "部屋の鍵をください。",
+    "category": "名詞",
+    "romaji": "kagi"
+  },
+  {
+    "word": "Wi-Fi",
+    "meaning": "無線網路",
+    "example": "Wi-Fiのパスワードは何ですか？",
+    "category": "名詞",
+    "romaji": "waifai"
+  },
+  {
+    "word": "観光案内所",
+    "meaning": "觀光服務中心",
+    "example": "観光案内所はどこですか？",
+    "category": "名詞",
+    "romaji": "kankou annaijo"
+  },
+  {
+    "word": "入場料",
+    "meaning": "入場費",
+    "example": "入場料はいくらですか？",
+    "category": "名詞",
+    "romaji": "nyuujouryou"
+  },
+  {
+    "word": "営業時間",
+    "meaning": "營業時間",
+    "example": "営業時間を教えてください。",
+    "category": "名詞",
+    "romaji": "eigyou jikan"
+  },
+  {
+    "word": "休館日",
+    "meaning": "休館日",
+    "example": "この美術館の休館日はいつですか？",
+    "category": "名詞",
+    "romaji": "kyuukanbi"
+  },
+  {
+    "word": "お土産",
+    "meaning": "伴手禮",
+    "example": "お土産を買いたいです。",
+    "category": "名詞",
+    "romaji": "omiyage"
+  },
+  {
+    "word": "写真",
+    "meaning": "照片",
+    "example": "ここで写真を撮ってもいいですか？",
+    "category": "名詞",
+    "romaji": "shashin"
+  },
+  {
+    "word": "禁止",
+    "meaning": "禁止",
+    "example": "ここは飲食禁止です。",
+    "category": "名詞",
+    "romaji": "kinshi"
+  },
+  {
+    "word": "薬",
+    "meaning": "藥",
+    "example": "頭が痛いので薬をください。",
+    "category": "名詞",
+    "romaji": "kusuri"
+  },
+  {
+    "word": "病院",
+    "meaning": "醫院",
+    "example": "近くの病院はどこですか？",
+    "category": "名詞",
+    "romaji": "byouin"
+  },
+  {
+    "word": "具合",
+    "meaning": "狀況、身體狀況",
+    "example": "少し具合が悪いです。",
+    "category": "名詞",
+    "romaji": "guai"
+  },
+  {
+    "word": "保険証",
+    "meaning": "健康保險卡",
+    "example": "保険証を持っていますか？",
+    "category": "名詞",
+    "romaji": "hokenshou"
+  },
+  {
+    "word": "処方箋",
+    "meaning": "處方箋",
+    "example": "この処方箋で薬をください。",
+    "category": "名詞",
+    "romaji": "shohousen"
+  },
+  {
+    "word": "試着",
+    "meaning": "試穿",
+    "example": "これを試着してもいいですか？",
+    "category": "名詞",
+    "romaji": "shichaku"
+  },
+  {
+    "word": "サイズ",
+    "meaning": "尺寸",
+    "example": "このサイズはありますか？",
+    "category": "名詞",
+    "romaji": "saizu"
+  },
+  {
+    "word": "色違い",
+    "meaning": "不同顏色",
+    "example": "色違いはありますか？",
+    "category": "名詞",
+    "romaji": "irochigai"
+  },
+  {
+    "word": "返品",
+    "meaning": "退貨",
+    "example": "返品はできますか？",
+    "category": "名詞",
+    "romaji": "henpin"
+  },
+  {
+    "word": "割引",
+    "meaning": "折扣",
+    "example": "これは割引されていますか？",
+    "category": "名詞",
+    "romaji": "waribiki"
+  },
+  {
+    "word": "〜はどこですか",
+    "meaning": "〜在哪裡？",
+    "example": "駅はどこですか？",
+    "category": "表現",
+    "romaji": "~ wa doko desu ka"
+  },
+  {
+    "word": "〜へ行きたい",
+    "meaning": "想去〜",
+    "example": "東京タワーへ行きたいです。",
+    "category": "表現",
+    "romaji": "~ e ikitai"
+  },
+  {
+    "word": "地図を見せてください",
+    "meaning": "請給我看地圖",
+    "example": "地図を見せてください。",
+    "category": "表現",
+    "romaji": "chizu o misete kudasai"
+  },
+  {
+    "word": "近いですか",
+    "meaning": "近嗎？",
+    "example": "ここから近いですか？",
+    "category": "表現",
+    "romaji": "chikai desu ka"
+  },
+  {
+    "word": "ありがとうございます",
+    "meaning": "謝謝您",
+    "example": "本当にありがとうございます。",
+    "category": "表現",
+    "romaji": "arigatou gozaimasu"
+  },
+  {
+    "word": "すみません",
+    "meaning": "不好意思／對不起",
+    "example": "すみません、質問があります。",
+    "category": "表現",
+    "romaji": "sumimasen"
+  },
+  {
+    "word": "お願いします",
+    "meaning": "拜託了／麻煩您",
+    "example": "水をお願いします。",
+    "category": "表現",
+    "romaji": "onegai shimasu"
+  },
+  {
+    "word": "失礼します",
+    "meaning": "打擾了／失禮了",
+    "example": "先に失礼します。",
+    "category": "表現",
+    "romaji": "shitsurei shimasu"
+  },
+  {
+    "word": "いらっしゃいませ",
+    "meaning": "歡迎光臨",
+    "example": "いらっしゃいませ！",
+    "category": "表現",
+    "romaji": "irasshaimase"
+  },
+  {
+    "word": "ロース",
+    "meaning": "牛背肉（里肌肉）",
+    "example": "ロースは柔らかくて美味しいです。",
+    "category": "牛肉",
+    "romaji": "roosu"
+  },
+  {
+    "word": "カルビ",
+    "meaning": "牛肋條（油脂豐富）或是靠近肋骨的肉",
+    "example": "カルビは焼肉の定番です。",
+    "category": "牛肉",
+    "romaji": "karubi"
+  },
+  {
+    "word": "ハラミ",
+    "meaning": "橫膈膜肉（接近牛肚）",
+    "example": "ハラミは歯ごたえがあります。",
+    "category": "牛肉",
+    "romaji": "harami"
+  },
+  {
+    "word": "タン",
+    "meaning": "牛舌",
+    "example": "タン塩をお願いします。",
+    "category": "牛肉",
+    "romaji": "tan"
+  },
+  {
+    "word": "ミスジ",
+    "meaning": "肩胛內側肉",
+    "example": "ミスジはとても柔らかい部位です。",
+    "category": "牛肉",
+    "romaji": "misuji"
+  },
+  {
+    "word": "サーロイン",
+    "meaning": "沙朗牛排",
+    "example": "サーロインステーキを食べました。",
+    "category": "牛肉",
+    "romaji": "saaroin"
+  },
+  {
+    "word": "リブロース",
+    "meaning": "肋眼牛排",
+    "example": "リブロースは脂がのっています。",
+    "category": "牛肉",
+    "romaji": "riburoosu"
+  },
+  {
+    "word": "イチボ",
+    "meaning": "臀部近尾端",
+    "example": "イチボは希少部位です。",
+    "category": "牛肉",
+    "romaji": "ichibo"
+  },
+  {
+    "word": "シンシン",
+    "meaning": "牛後腿內側瘦肉",
+    "example": "シンシンはあっさりした味です。",
+    "category": "牛肉",
+    "romaji": "shinshin"
+  },
+  {
+    "word": "バラ",
+    "meaning": "豬五花肉",
+    "example": "豚バラを焼いて食べます。",
+    "category": "豬肉",
+    "romaji": "bara"
+  },
+  {
+    "word": "ヒレ",
+    "meaning": "豬里肌肉",
+    "example": "ヒレカツは柔らかいです。",
+    "category": "豬肉",
+    "romaji": "hire"
+  },
+  {
+    "word": "ロース",
+    "meaning": "豬背脊肉（與牛同字）",
+    "example": "ロースかつ定食をください。",
+    "category": "豬肉",
+    "romaji": "roosu"
+  },
+  {
+    "word": "トントロ",
+    "meaning": "豬頸肉",
+    "example": "トントロは脂がのって美味しいです。",
+    "category": "豬肉",
+    "romaji": "tontoro"
+  },
+  {
+    "word": "カシラ",
+    "meaning": "豬臉頰肉",
+    "example": "カシラは歯ごたえがあります。",
+    "category": "豬肉",
+    "romaji": "kashira"
+  },
+  {
+    "word": "もも",
+    "meaning": "雞腿肉",
+    "example": "鶏もも肉を焼きます。",
+    "category": "鶏肉",
+    "romaji": "momo"
+  },
+  {
+    "word": "むね",
+    "meaning": "雞胸肉",
+    "example": "むね肉はヘルシーです。",
+    "category": "鶏肉",
+    "romaji": "mune"
+  },
+  {
+    "word": "せせり",
+    "meaning": "雞脖子肉",
+    "example": "せせりは噛みごたえがあります。",
+    "category": "鶏肉",
+    "romaji": "seseri"
+  },
+  {
+    "word": "はつ",
+    "meaning": "雞心",
+    "example": "はつは塩で焼くのが美味しいです。",
+    "category": "鶏肉",
+    "romaji": "hatsu"
+  },
+  {
+    "word": "ぼんじり",
+    "meaning": "雞屁股（三角部）",
+    "example": "ぼんじりは脂が多い部位です。",
+    "category": "鶏肉",
+    "romaji": "bonjiri"
+  },
+  {
+    "word": "なんこつ",
+    "meaning": "雞軟骨",
+    "example": "なんこつの食感が好きです。",
+    "category": "鶏肉",
+    "romaji": "nankotsu"
+  },
+  {
+    "word": "かわ",
+    "meaning": "雞皮",
+    "example": "かわはパリッと焼くと美味しいです。",
+    "category": "鶏肉",
+    "romaji": "kawa"
+  },
+  {
+    "word": "カルビ",
+    "meaning": "靠近肋骨的肉（通常都油脂豐富）",
+    "example": "カルビは焼肉の定番です。",
+    "category": "雞肉",
+    "romaji": "karubi"
+  },
+  {
+    "word": "つくね",
+    "meaning": "雞肉丸",
+    "example": "つくねにタレをかけてください。",
+    "category": "鶏肉",
+    "romaji": "tsukune"
+  },
+  {
+    "word": "ビール",
+    "meaning": "啤酒",
+    "example": "とりあえずビールをください。",
+    "category": "酒類",
+    "romaji": "biiru"
+  },
+  {
+    "word": "生ビール",
+    "meaning": "生啤酒",
+    "example": "生ビールを二つお願いします。",
+    "category": "酒類",
+    "romaji": "nama biiru"
+  },
+  {
+    "word": "瓶ビール",
+    "meaning": "瓶裝啤酒",
+    "example": "瓶ビールもありますか？",
+    "category": "酒類",
+    "romaji": "bin biiru"
+  },
+  {
+    "word": "日本酒",
+    "meaning": "日本清酒",
+    "example": "日本酒を熱燗でお願いします。",
+    "category": "酒類",
+    "romaji": "nihonshu"
+  },
+  {
+    "word": "熱燗",
+    "meaning": "熱清酒",
+    "example": "寒い日は熱燗がいいですね。",
+    "category": "酒類",
+    "romaji": "atsukan"
+  },
+  {
+    "word": "冷酒",
+    "meaning": "冷清酒",
+    "example": "冷酒で飲みたいです。",
+    "category": "酒類",
+    "romaji": "reishu"
+  },
+  {
+    "word": "焼酎",
+    "meaning": "燒酎",
+    "example": "焼酎はロックでお願いします。",
+    "category": "酒類",
+    "romaji": "shouchuu"
+  },
+  {
+    "word": "ロック",
+    "meaning": "加冰塊（on the rocks）",
+    "example": "焼酎はロックが好きです。",
+    "category": "酒類",
+    "romaji": "rokku"
+  },
+  {
+    "word": "水割り",
+    "meaning": "加水稀釋",
+    "example": "ウイスキーの水割りをください。",
+    "category": "酒類",
+    "romaji": "mizuwari"
+  },
+  {
+    "word": "ハイボール",
+    "meaning": "Highball（威士忌加蘇打）",
+    "example": "ハイボールを三つください。",
+    "category": "酒類",
+    "romaji": "haibooru"
+  },
+  {
+    "word": "梅酒",
+    "meaning": "梅子酒",
+    "example": "梅酒のロックでお願いします。",
+    "category": "酒類",
+    "romaji": "umeshu"
+  },
+  {
+    "word": "カクテル",
+    "meaning": "調酒",
+    "example": "カクテルメニューはありますか？",
+    "category": "酒類",
+    "romaji": "kakuteru"
+  },
+  {
+    "word": "ワイン",
+    "meaning": "葡萄酒",
+    "example": "赤ワインと白ワインがあります。",
+    "category": "酒類",
+    "romaji": "wain"
+  },
+  {
+    "word": "赤ワイン",
+    "meaning": "紅酒",
+    "example": "赤ワインをグラスでください。",
+    "category": "酒類",
+    "romaji": "aka wain"
+  },
+  {
+    "word": "白ワイン",
+    "meaning": "白酒",
+    "example": "白ワインは辛口ですか？",
+    "category": "酒類",
+    "romaji": "shiro wain"
+  },
+  {
+    "word": "ノンアルコール",
+    "meaning": "無酒精飲品",
+    "example": "ノンアルコールビールもあります。",
+    "category": "酒類",
+    "romaji": "non arukooru"
+  },
+  {
+    "word": "コーヒー",
+    "meaning": "咖啡",
+    "example": "ホットコーヒーをください。",
+    "category": "咖啡廳",
+    "romaji": "koohii"
+  },
+  {
+    "word": "アイスコーヒー",
+    "meaning": "冰咖啡",
+    "example": "アイスコーヒーはありますか？",
+    "category": "咖啡廳",
+    "romaji": "aisu koohii"
+  },
+  {
+    "word": "カフェラテ",
+    "meaning": "拿鐵",
+    "example": "カフェラテのLサイズをください。",
+    "category": "咖啡廳",
+    "romaji": "kafe rate"
+  },
+  {
+    "word": "カプチーノ",
+    "meaning": "卡布奇諾",
+    "example": "カプチーノはミルク多めで。",
+    "category": "咖啡廳",
+    "romaji": "kapuchiino"
+  },
+  {
+    "word": "エスプレッソ",
+    "meaning": "濃縮咖啡",
+    "example": "エスプレッソを一杯。",
+    "category": "咖啡廳",
+    "romaji": "esupuresso"
+  },
+  {
+    "word": "ブレンド",
+    "meaning": "綜合咖啡",
+    "example": "ブレンドコーヒーを注文します。",
+    "category": "咖啡廳",
+    "romaji": "burendo"
+  },
+  {
+    "word": "砂糖",
+    "meaning": "砂糖",
+    "example": "砂糖は入れますか？",
+    "category": "咖啡廳",
+    "romaji": "satou"
+  },
+  {
+    "word": "ミルク",
+    "meaning": "牛奶 / 奶精",
+    "example": "ミルクは別でお願いします。",
+    "category": "咖啡廳",
+    "romaji": "miruku"
+  },
+  {
+    "word": "ケーキ",
+    "meaning": "蛋糕",
+    "example": "ケーキセットにします。",
+    "category": "咖啡廳",
+    "romaji": "keeki"
+  },
+  {
+    "word": "チーズケーキ",
+    "meaning": "起司蛋糕",
+    "example": "チーズケーキは人気です。",
+    "category": "咖啡廳",
+    "romaji": "chiizu keeki"
+  },
+  {
+    "word": "ショートケーキ",
+    "meaning": "草莓奶油蛋糕",
+    "example": "ショートケーキを一つ。",
+    "category": "咖啡廳",
+    "romaji": "shootokeeki"
+  },
+  {
+    "word": "シフォンケーキ",
+    "meaning": "戚風蛋糕",
+    "example": "シフォンケーキはふわふわです。",
+    "category": "咖啡廳",
+    "romaji": "shifon keeki"
+  },
+  {
+    "word": "ワッフル",
+    "meaning": "鬆餅",
+    "example": "アイス付きのワッフルをください。",
+    "category": "咖啡廳",
+    "romaji": "waffuru"
+  },
+  {
+    "word": "セット",
+    "meaning": "套餐",
+    "example": "ドリンクセットにできますか？",
+    "category": "咖啡廳",
+    "romaji": "setto"
+  },
+  {
+    "word": "テイクアウト",
+    "meaning": "外帶",
+    "example": "テイクアウトできますか？",
+    "category": "咖啡廳",
+    "romaji": "teiku auto"
+  },
+  {
+    "word": "店内",
+    "meaning": "內用",
+    "example": "店内でお召し上がりですか？",
+    "category": "咖啡廳",
+    "romaji": "tennai"
+  },
+  {
+    "word": "和菓子",
+    "meaning": "日式甜點",
+    "example": "和菓子は抹茶とよく合います。",
+    "category": "甜點",
+    "romaji": "wagashi"
+  },
+  {
+    "word": "団子",
+    "meaning": "糰子",
+    "example": "みたらし団子をください。",
+    "category": "甜點",
+    "romaji": "dango"
+  },
+  {
+    "word": "たい焼き",
+    "meaning": "鯛魚燒",
+    "example": "たい焼きは中にあんこが入っています。",
+    "category": "甜點",
+    "romaji": "taiyaki"
+  },
+  {
+    "word": "どら焼き",
+    "meaning": "銅鑼燒",
+    "example": "どら焼きは人気のお土産です。",
+    "category": "甜點",
+    "romaji": "dorayaki"
+  },
+  {
+    "word": "抹茶アイス",
+    "meaning": "抹茶冰淇淋",
+    "example": "抹茶アイスを一つお願いします。",
+    "category": "甜點",
+    "romaji": "matcha aisu"
+  },
+  {
+    "word": "ぜんざい",
+    "meaning": "紅豆湯（附年糕）",
+    "example": "寒い日にぜんざいを食べます。",
+    "category": "甜點",
+    "romaji": "zenzai"
+  },
+  {
+    "word": "かき氷",
+    "meaning": "刨冰",
+    "example": "いちご味のかき氷を注文しました。",
+    "category": "甜點",
+    "romaji": "kakigoori"
+  },
+  {
+    "word": "プリン",
+    "meaning": "布丁",
+    "example": "このプリンはとてもなめらかです。",
+    "category": "甜點",
+    "romaji": "purin"
+  },
+  {
+    "word": "お茶",
+    "meaning": "茶（綠茶）",
+    "example": "温かいお茶をどうぞ。",
+    "category": "飲品",
+    "romaji": "ocha"
+  },
+  {
+    "word": "抹茶",
+    "meaning": "抹茶",
+    "example": "抹茶を点てて飲みます。",
+    "category": "飲品",
+    "romaji": "matcha"
+  },
+  {
+    "word": "ジュース",
+    "meaning": "果汁",
+    "example": "オレンジジュースを二つください。",
+    "category": "飲品",
+    "romaji": "juusu"
+  },
+  {
+    "word": "ソーダ",
+    "meaning": "汽水",
+    "example": "メロンソーダが人気です。",
+    "category": "飲品",
+    "romaji": "sooda"
+  },
+  {
+    "word": "ミルクティー",
+    "meaning": "奶茶",
+    "example": "ミルクティーは甘めで。",
+    "category": "飲品",
+    "romaji": "miruku tii"
+  },
+  {
+    "word": "タピオカ",
+    "meaning": "珍珠（粉圓）",
+    "example": "タピオカ入りドリンクを注文します。",
+    "category": "飲品",
+    "romaji": "tapioka"
+  },
+  {
+    "word": "フロート",
+    "meaning": "冰淇淋漂浮飲",
+    "example": "コーラフロートをください。",
+    "category": "飲品",
+    "romaji": "furooto"
+  },
+  {
+    "word": "入国審査",
+    "meaning": "入境審查",
+    "example": "入国審査でパスポートを見せます。",
+    "category": "機場・海關",
+    "romaji": "nyuukoku shinsa"
+  },
+  {
+    "word": "税関",
+    "meaning": "海關",
+    "example": "税関申告書を提出してください。",
+    "category": "機場・海關",
+    "romaji": "zeikan"
+  },
+  {
+    "word": "出国",
+    "meaning": "出境",
+    "example": "出国手続きを済ませました。",
+    "category": "機場・海關",
+    "romaji": "shukkoku"
+  },
+  {
+    "word": "パスポート",
+    "meaning": "護照",
+    "example": "パスポートを拝見できますか？",
+    "category": "機場・海關",
+    "romaji": "pasupooto"
+  },
+  {
+    "word": "ビザ",
+    "meaning": "簽證",
+    "example": "ビザは必要ですか？",
+    "category": "機場・海關",
+    "romaji": "biza"
+  },
+  {
+    "word": "搭乗券",
+    "meaning": "登機證",
+    "example": "搭乗券を見せてください。",
+    "category": "機場・海關",
+    "romaji": "toujouken"
+  },
+  {
+    "word": "手荷物",
+    "meaning": "隨身行李",
+    "example": "手荷物検査があります。",
+    "category": "機場・海關",
+    "romaji": "tenimotsu"
+  },
+  {
+    "word": "預け荷物",
+    "meaning": "托運行李",
+    "example": "預け荷物はありますか？",
+    "category": "機場・海關",
+    "romaji": "azuke nimotsu"
+  },
+  {
+    "word": "申告",
+    "meaning": "申報",
+    "example": "何か申告するものはありますか？",
+    "category": "機場・海關",
+    "romaji": "shinkoku"
+  },
+  {
+    "word": "目的",
+    "meaning": "目的",
+    "example": "日本への渡航目的は何ですか？",
+    "category": "機場・海關",
+    "romaji": "mokuteki"
+  },
+  {
+    "word": "観光",
+    "meaning": "觀光",
+    "example": "観光で来ました。",
+    "category": "機場・海關",
+    "romaji": "kankou"
+  },
+  {
+    "word": "出張",
+    "meaning": "出差",
+    "example": "仕事の出張です。",
+    "category": "機場・海關",
+    "romaji": "shucchou"
+  },
+  {
+    "word": "入国カード",
+    "meaning": "入境卡",
+    "example": "入国カードを記入してください。",
+    "category": "機場・海關",
+    "romaji": "nyuukoku kaado"
+  },
+  {
+    "word": "到着ロビー",
+    "meaning": "抵達大廳",
+    "example": "到着ロビーでお待ちください。",
+    "category": "機場・海關",
+    "romaji": "touchaku robii"
+  },
+  {
+    "word": "出発ロビー",
+    "meaning": "出發大廳",
+    "example": "出発ロビーに移動してください。",
+    "category": "機場・海關",
+    "romaji": "shuppatsu robii"
+  },
+  {
+    "word": "乗り継ぎ",
+    "meaning": "轉機",
+    "example": "乗り継ぎの便は何番ゲートですか？",
+    "category": "機場・海關",
+    "romaji": "noritsugi"
+  },
+  {
+    "word": "遅延",
+    "meaning": "延遲",
+    "example": "飛行機が遅延しています。",
+    "category": "機場・海關",
+    "romaji": "chien"
+  },
+  {
+    "word": "欠航",
+    "meaning": "取消航班",
+    "example": "本日の便は欠航になりました。",
+    "category": "機場・海關",
+    "romaji": "kekkou"
+  },
+  {
+    "word": "部屋",
+    "meaning": "房間",
+    "example": "部屋は何階ですか？",
+    "category": "住宿",
+    "romaji": "heya"
+  },
+  {
+    "word": "鍵",
+    "meaning": "鑰匙",
+    "example": "部屋の鍵をなくしました。",
+    "category": "住宿",
+    "romaji": "kagi"
+  },
+  {
+    "word": "チェックイン",
+    "meaning": "辦理入住",
+    "example": "15時にチェックインできますか？",
+    "category": "住宿",
+    "romaji": "chekku in"
+  },
+  {
+    "word": "チェックアウト",
+    "meaning": "退房",
+    "example": "チェックアウトは何時までですか？",
+    "category": "住宿",
+    "romaji": "chekku auto"
+  },
+  {
+    "word": "予約",
+    "meaning": "預約",
+    "example": "1か月前に予約しました。",
+    "category": "住宿",
+    "romaji": "yoyaku"
+  },
+  {
+    "word": "領収書",
+    "meaning": "收據",
+    "example": "領収書をいただけますか？",
+    "category": "住宿",
+    "romaji": "ryoushuusho"
+  },
+  {
+    "word": "朝食",
+    "meaning": "早餐",
+    "example": "朝食は何時からですか？",
+    "category": "住宿",
+    "romaji": "choushoku"
+  },
+  {
+    "word": "夕食",
+    "meaning": "晚餐",
+    "example": "夕食は予約が必要ですか？",
+    "category": "住宿",
+    "romaji": "yuushoku"
+  },
+  {
+    "word": "浴衣",
+    "meaning": "浴衣（室內和服）",
+    "example": "浴衣はどこにありますか？",
+    "category": "住宿",
+    "romaji": "yukata"
+  },
+  {
+    "word": "スリッパ",
+    "meaning": "拖鞋",
+    "example": "スリッパを使ってもいいですか？",
+    "category": "住宿",
+    "romaji": "surippa"
+  },
+  {
+    "word": "タオル",
+    "meaning": "毛巾",
+    "example": "タオルを追加でもらえますか？",
+    "category": "住宿",
+    "romaji": "taoru"
+  },
+  {
+    "word": "歯ブラシ",
+    "meaning": "牙刷",
+    "example": "歯ブラシはありますか？",
+    "category": "住宿",
+    "romaji": "haburashi"
+  },
+  {
+    "word": "シャンプー",
+    "meaning": "洗髮精",
+    "example": "シャンプーが切れています。",
+    "category": "住宿",
+    "romaji": "shampuu"
+  },
+  {
+    "word": "ドライヤー",
+    "meaning": "吹風機",
+    "example": "ドライヤーを借りられますか？",
+    "category": "住宿",
+    "romaji": "doraiyaa"
+  },
+  {
+    "word": "テレビ",
+    "meaning": "電視",
+    "example": "テレビのリモコンが見つかりません。",
+    "category": "住宿",
+    "romaji": "terebi"
+  },
+  {
+    "word": "エアコン",
+    "meaning": "空調",
+    "example": "エアコンの調子が悪いです。",
+    "category": "住宿",
+    "romaji": "eakon"
+  },
+  {
+    "word": "お風呂",
+    "meaning": "浴室",
+    "example": "お風呂の使い方を教えてください。",
+    "category": "住宿",
+    "romaji": "ofuro"
+  },
+  {
+    "word": "金庫",
+    "meaning": "保險箱",
+    "example": "貴重品は金庫に入れてください。",
+    "category": "住宿",
+    "romaji": "kinko"
+  },
+  {
+    "word": "Wi-Fi",
+    "meaning": "無線網路",
+    "example": "Wi-Fiのパスワードを教えてください。",
+    "category": "住宿",
+    "romaji": "waifai"
   }
 ]
-

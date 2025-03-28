@@ -1,0 +1,188 @@
+[
+  {
+    "category": "問路",
+    "japanese": "すみません、駅はどこですか？",
+    "romaji": "sumimasen, eki wa doko desu ka?",
+    "meaning": "不好意思，請問車站在哪裡？"
+  },
+  {
+    "category": "問路",
+    "japanese": "この住所に行きたいです。",
+    "romaji": "kono juusho ni ikitai desu.",
+    "meaning": "我想去這個地址。"
+  },
+  {
+    "category": "問路",
+    "japanese": "右に曲がってください。",
+    "romaji": "migi ni magatte kudasai.",
+    "meaning": "請右轉。"
+  },
+  {
+    "category": "問路",
+    "japanese": "まっすぐ行ってください。",
+    "romaji": "massugu itte kudasai.",
+    "meaning": "請直走。"
+  },
+  {
+    "category": "購物",
+    "japanese": "これはいくらですか？",
+    "romaji": "kore wa ikura desu ka?",
+    "meaning": "這個多少錢？"
+  },
+  {
+    "category": "購物",
+    "japanese": "試着してもいいですか？",
+    "romaji": "shichaku shite mo ii desu ka?",
+    "meaning": "可以試穿看看嗎？"
+  },
+  {
+    "category": "購物",
+    "japanese": "他の色はありますか？",
+    "romaji": "hoka no iro wa arimasu ka?",
+    "meaning": "有其他顏色嗎？"
+  },
+  {
+    "category": "飯店",
+    "japanese": "チェックインをお願いします。",
+    "romaji": "chekku in o onegai shimasu.",
+    "meaning": "我要辦理入住。"
+  },
+  {
+    "category": "飯店",
+    "japanese": "Wi-Fiのパスワードを教えてください。",
+    "romaji": "waifai no pasuwaado o oshiete kudasai.",
+    "meaning": "請告訴我 Wi-Fi 密碼。"
+  },
+  {
+    "category": "飯店",
+    "japanese": "朝食は何時からですか？",
+    "romaji": "choushoku wa nanji kara desu ka?",
+    "meaning": "早餐是幾點開始？"
+  },
+  {
+    "category": "緊急",
+    "japanese": "警察を呼んでください。",
+    "romaji": "keisatsu o yonde kudasai.",
+    "meaning": "請幫我叫警察。"
+  },
+  {
+    "category": "緊急",
+    "japanese": "病院へ連れて行ってください。",
+    "romaji": "byouin e tsureteitte kudasai.",
+    "meaning": "請帶我去醫院。"
+  },
+  {
+    "category": "緊急",
+    "japanese": "気分が悪いです。",
+    "romaji": "kibun ga warui desu.",
+    "meaning": "我覺得不舒服。"
+  },
+  {
+    "category": "餐廳",
+    "japanese": "おすすめは何ですか？",
+    "romaji": "osusume wa nan desu ka?",
+    "meaning": "有什麼推薦的餐點嗎？"
+  },
+  {
+    "category": "餐廳",
+    "japanese": "別々に会計してください。",
+    "romaji": "betsubetsu ni kaikei shite kudasai.",
+    "meaning": "請分開結帳。"
+  },
+  {
+    "category": "交通",
+    "japanese": "この電車は東京に行きますか？",
+    "romaji": "kono densha wa toukyou ni ikimasu ka?",
+    "meaning": "這班電車會到東京嗎？"
+  },
+  {
+    "category": "交通",
+    "japanese": "乗り換えはどこですか？",
+    "romaji": "norikae wa doko desu ka?",
+    "meaning": "在哪裡轉車？"
+  },
+  {
+    "category": "機場",
+    "japanese": "パスポートを見せてください。",
+    "romaji": "pasupooto o misete kudasai.",
+    "meaning": "請出示護照。"
+  },
+  {
+    "category": "機場",
+    "japanese": "チェックインカウンターはどこですか？",
+    "romaji": "chekkuin kauntaa wa doko desu ka?",
+    "meaning": "請問辦理登機櫃檯在哪？"
+  },
+  {
+    "category": "公共設施",
+    "japanese": "トイレはどこですか？",
+    "romaji": "toire wa doko desu ka?",
+    "meaning": "請問廁所在哪裡？"
+  },
+  {
+    "category": "公共設施",
+    "japanese": "両替できますか？",
+    "romaji": "ryougae dekimasu ka?",
+    "meaning": "可以兌換錢嗎？"
+  },
+  {
+    "category": "公共設施",
+    "japanese": "コインロッカーはありますか？",
+    "romaji": "koin rokkā wa arimasu ka?",
+    "meaning": "有投幣式置物櫃嗎？"
+  },
+  {
+    "category": "公共設施",
+    "japanese": "禁煙ですか？",
+    "romaji": "kin'en desu ka?",
+    "meaning": "是禁菸的嗎？"
+  },
+  {
+    "category": "通訊",
+    "japanese": "充電できますか？",
+    "romaji": "juuden dekimasu ka?",
+    "meaning": "可以充電嗎？"
+  },
+  {
+    "category": "通訊",
+    "japanese": "SIMカードを買いたいです。",
+    "romaji": "shim kaado o kaitai desu",
+    "meaning": "我想買 SIM 卡。"
+  },
+  {
+    "category": "通訊",
+    "japanese": "電話を借りてもいいですか？",
+    "romaji": "denwa o karite mo ii desu ka?",
+    "meaning": "可以借用電話嗎？"
+  },
+  {
+    "category": "通訊",
+    "japanese": "無料Wi-Fiはありますか？",
+    "romaji": "muryou waifai wa arimasu ka?",
+    "meaning": "有免費 Wi-Fi 嗎？"
+  },
+  {
+    "category": "景點票券",
+    "japanese": "チケットを一枚ください。",
+    "romaji": "chiketto o ichimai kudasai",
+    "meaning": "請給我一張票。"
+  },
+  {
+    "category": "景點票券",
+    "japanese": "割引はありますか？",
+    "romaji": "waribiki wa arimasu ka?",
+    "meaning": "有折扣嗎？"
+  },
+  {
+    "category": "景點票券",
+    "japanese": "このバスは予約が必要ですか？",
+    "romaji": "kono basu wa yoyaku ga hitsuyou desu ka?",
+    "meaning": "這班巴士需要預約嗎？"
+  },
+  {
+    "category": "景點票券",
+    "japanese": "パンフレットはありますか？",
+    "romaji": "panfuretto wa arimasu ka?",
+    "meaning": "有簡介手冊嗎？"
+  }
+]
