@@ -1,5 +1,173 @@
 [
   {
+    "word": "ラーメン",
+    "meaning": "拉麵",
+    "example": "この店のラーメンはとても人気です。",
+    "category": "名詞",
+    "romaji": "raamen"
+  },
+  {
+    "word": "うどん",
+    "meaning": "烏龍麵",
+    "example": "冷たいうどんをください。",
+    "category": "名詞",
+    "romaji": "udon"
+  },
+  {
+    "word": "そば",
+    "meaning": "蕎麥麵",
+    "example": "天ぷらそばを一つお願いします。",
+    "category": "名詞",
+    "romaji": "soba"
+  },
+  {
+    "word": "カレーライス",
+    "meaning": "咖哩飯",
+    "example": "カレーライスは辛いですか？",
+    "category": "名詞",
+    "romaji": "karee raisu"
+  },
+  {
+    "word": "定食",
+    "meaning": "套餐",
+    "example": "今日の定食は焼き魚です。",
+    "category": "名詞",
+    "romaji": "teishoku"
+  },
+  {
+    "word": "刺身",
+    "meaning": "生魚片",
+    "example": "新鮮な刺身を食べたいです。",
+    "category": "名詞",
+    "romaji": "sashimi"
+  },
+  {
+    "word": "焼き鳥",
+    "meaning": "烤雞肉串",
+    "example": "焼き鳥はタレと塩があります。",
+    "category": "名詞",
+    "romaji": "yakitori"
+  },
+  {
+    "word": "味噌汁",
+    "meaning": "味噌湯",
+    "example": "味噌汁がついていますか？",
+    "category": "名詞",
+    "romaji": "misoshiru"
+  },
+  {
+    "word": "ご飯",
+    "meaning": "白飯、米飯",
+    "example": "ご飯は大盛りにできますか？",
+    "category": "名詞",
+    "romaji": "gohan"
+  },
+  {
+    "word": "天ぷら",
+    "meaning": "天婦羅（炸物）",
+    "example": "天ぷら定食を注文します。",
+    "category": "名詞",
+    "romaji": "tenpura"
+  },
+  {
+    "word": "寿司",
+    "meaning": "壽司",
+    "example": "この寿司は新鮮ですね。",
+    "category": "名詞",
+    "romaji": "sushi"
+  },
+  {
+    "word": "まぐろ",
+    "meaning": "鮪魚",
+    "example": "まぐろのにぎりをください。",
+    "category": "名詞",
+    "romaji": "maguro"
+  },
+  {
+    "word": "サーモン",
+    "meaning": "鮭魚",
+    "example": "サーモンが大好きです。",
+    "category": "名詞",
+    "romaji": "saamon"
+  },
+  {
+    "word": "たまご",
+    "meaning": "玉子燒",
+    "example": "たまごの寿司を二つお願いします。",
+    "category": "名詞",
+    "romaji": "tamago"
+  },
+  {
+    "word": "駅",
+    "meaning": "車站",
+    "example": "次の駅はどこですか？",
+    "category": "名詞",
+    "romaji": "eki"
+  },
+  {
+    "word": "切符",
+    "meaning": "車票",
+    "example": "切符はどこで買えますか？",
+    "category": "名詞",
+    "romaji": "kippu"
+  },
+  {
+    "word": "出口",
+    "meaning": "出口",
+    "example": "出口はあちらです。",
+    "category": "名詞",
+    "romaji": "deguchi"
+  },
+  {
+    "word": "入口",
+    "meaning": "入口",
+    "example": "入口はこちらです。",
+    "category": "名詞",
+    "romaji": "iriguchi"
+  },
+  {
+    "word": "乗り換え",
+    "meaning": "轉乘",
+    "example": "渋谷で乗り換えが必要です。",
+    "category": "名詞",
+    "romaji": "norikae"
+  },
+  {
+    "word": "バス停",
+    "meaning": "公車站",
+    "example": "バス停はどこにありますか？",
+    "category": "名詞",
+    "romaji": "basutei"
+  },
+  {
+    "word": "道",
+    "meaning": "道路、路",
+    "example": "この道をまっすぐ行ってください。",
+    "category": "名詞",
+    "romaji": "michi"
+  },
+  {
+    "word": "交差点",
+    "meaning": "十字路口",
+    "example": "交差点を左に曲がってください。",
+    "category": "名詞",
+    "romaji": "kousaten"
+  },
+  {
+    "word": "信号",
+    "meaning": "紅綠燈",
+    "example": "信号を渡ったらすぐです。",
+    "category": "名詞",
+    "romaji": "shingou"
+  },
+  {
+    "word": "地図",
+    "meaning": "地圖",
+    "example": "地図を見せていただけますか？",
+    "category": "名詞",
+    "romaji": "chizu"
+  },
+  {
     "word": "迷う",
     "meaning": "迷路、困惑（例：道に迷う）",
     "example": "道に迷ってしまいました。",

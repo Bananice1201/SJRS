@@ -96,14 +96,10 @@
       for (const item of wordData) {
         if ((item.word.includes(input) || item.meaning.includes(input)) && 
             (!category || item.category === category)) {
-          resultText += `【${item.category}】「${item.word}」\n意思：${item.meaning}\n例句：${item.example}\n`;
-          if (item.audio) {
-            resultText += `<audio controls src="${item.audio}"></audio>\n`;
-          }
-          resultText += `\n`;
+          resultText += `【${item.category}】「${item.word}」 (${item.romaji})\n意思：${item.meaning}\n例句：${item.example}\n\n`;
         }
       }
-      document.getElementById('result').innerHTML = resultText || '找不到符合的單字';
+      document.getElementById('result').innerText = resultText || '找不到符合的單字';
     });
 
     if ('serviceWorker' in navigator) {
