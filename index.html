@@ -78,11 +78,18 @@
   </div>
 
   <script>
-    const correctPassword = "bananice";
+    const correctPassword = "0330";
+
+    // 自動登入判斷
+    if (localStorage.getItem('loggedIn') === 'true') {
+      document.getElementById('login').style.display = 'none';
+      document.getElementById('app').style.display = 'block';
+    }
 
     function checkPassword() {
       const input = document.getElementById('passwordInput').value;
       if (input === correctPassword) {
+        localStorage.setItem('loggedIn', 'true');
         document.getElementById('login').style.display = 'none';
         document.getElementById('app').style.display = 'block';
       } else {
@@ -119,3 +126,4 @@
   </script>
 </body>
 </html>
+
