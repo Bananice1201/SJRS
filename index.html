@@ -47,6 +47,11 @@
       color: #333;
       white-space: pre-wrap;
     }
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #007bff;
+    }
   </style>
 </head>
 <body>
@@ -56,6 +61,10 @@
   </div>
 
   <div class="container" id="app">
+    <nav style="margin-bottom: 1.5rem;">
+      <a href="index.html">🔍 單字查詢</a>
+      <a href="phrases.html">💬 句型查詢</a>
+    </nav>
     <h1>日文單字搜尋</h1>
     <input id="searchInput" type="text" placeholder="輸入日文單字或意思...">
     <select id="categorySelect">
@@ -94,7 +103,7 @@
       const category = document.getElementById('categorySelect').value;
       let resultText = '';
       for (const item of wordData) {
-        if ((item.word.includes(input) || item.meaning.includes(input)) && 
+        if ((item.word.includes(input) || item.meaning.includes(input)) &&
             (!category || item.category === category)) {
           resultText += `【${item.category}】「${item.word}」 (${item.romaji})\n意思：${item.meaning}\n例句：${item.example}\n\n`;
         }
@@ -110,4 +119,3 @@
   </script>
 </body>
 </html>
-
