@@ -99,7 +99,7 @@
     input.addEventListener('input', renderResults);
     select.addEventListener('change', renderResults);
 
-    fetch('phrases_full.json')
+    fetch('phrases.json')
       .then(res => res.json())
       .then(data => {
         phrases = data;
